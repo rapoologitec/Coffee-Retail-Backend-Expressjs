@@ -1,12 +1,13 @@
+Original Repo was private in school organization so I uploaded this from local files
+
 ## Run server
 1. Install dependecies `npm install`
 2. Create a `.env` file in project root directory
 3. we use JWT to authenticate user, so copy and paste the following to `.env` 
 
-    connectionURL = "mongodb+srv://userWIT:somePassword@cluster0.v20k5.mongodb.net/cluster0?retryWrites=true&w=majority"
-    ACCESS_TOKEN_SECRET = 12a2107c9ef61f57b8541535ef435a6d27531d64edb9034e0851b8bd01fc7cfc025dc5819360dc1642ba19dc16344a37a2293a8ffe638310430f0a9ee0ab9bc1
-    REFRESH_TOKEN_SECRET = 30717361be51b4c3ee053b8bf70f501ec6f184caed9f018102e7bf50fc286148cf7e07b50c0a8e2f6227a457c0c38463105d0ee9e05497473eee652194a8af5f
-
+    connectionURL = "SAMPLE"
+    ACCESS_TOKEN_SECRET = SAMPLE
+    REFRESH_TOKEN_SECRET = SAMPLE
 You can also set up a local dev environment, remove the line `connectionURL = ...` above (and adjust port setting in `server.js`)
 
 4. To run server: `npm run devstart`
